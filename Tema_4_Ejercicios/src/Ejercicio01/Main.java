@@ -19,19 +19,9 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 
 		// Creamos nuestros tres puntos.
-		Punto p1 = new Punto();
-		Punto p2 = new Punto();
-		Punto p3 = new Punto();
-
-		// Definimos los valores de nuestros puntos.
-		p1.posicionX = 5;
-		p1.posicionY = 0;
-
-		p2.posicionX = 10;
-		p2.posicionY = 10;
-
-		p3.posicionX = -3;
-		p3.posicionY = 7;
+		Punto p1 = new Punto(5,0);
+		Punto p2 = new Punto(10,10);
+		Punto p3 = new Punto(-3,7);
 
 		// Mostramos los puntos al usaurio.
 		Punto.mostrarPuntos(p1, p2, p3);
