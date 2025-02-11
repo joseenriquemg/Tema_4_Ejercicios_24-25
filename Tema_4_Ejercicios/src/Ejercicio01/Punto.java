@@ -8,6 +8,13 @@ public class Punto {
 	// Variable que recoge las Y de cada punto.
 	private int posicionY;
 
+	public void setXY(int x, int y) {
+		
+		
+	
+	}
+	
+	
 	/**
 	 * Creamos nuestro constructor Punto.
 	 * 
